@@ -14,13 +14,13 @@ let textures1D = [
     [{r: 0, g: 0, b: 255}, {r: 0, g: 64, b: 192}, {r: 0, g: 128, b: 128}, {r: 0, g: 192, b: 64}, {r: 0, g: 128, b: 128}, {r: 0, g: 64, b: 192},],
     [{r: 255, g: 0, b: 0}, {r: 255, g: 128, b: 0}, {r: 255, g: 255, b: 0}, {r: 0, g: 255, b: 0}, {r: 0, g: 0, b: 255}, {r: 255, g: 0, b: 255}],
     [{r: 255, g: 255, b: 255}, {r: 128, g: 128, b: 128}],
-    [{r: 255, g: 255, b: 0}, {r: 128, g: 128, b: 0}],
+    [{r: 154, g: 0, b: 255}, {r: 53, g: 0, b: 8}],
     [{r: 128, g: 0, b: 0}],
     [{r: 255, g: 255, b: 255}, {r: 255, g: 255, b: 255}, {r: 0, g: 0, b: 0}, {r: 255, g: 255, b: 255}, {r: 0, g: 0, b: 0}, {r: 0, g: 0, b: 0}, {r: 255, g: 255, b: 255}, {r: 0, g: 0, b: 0}, ],
 ]
 
-let enemyEyeColor = {r: 255, g: 255, b: 255}
-let enemyBodyColor = {r: 255, g: 0, b: 255}
+let enemyEyeColor = {r: 0, g: 26, b: 255}
+let enemyBodyColor = {r: 220, g: 110, b: 0}
 
 // texture for half of the enemy's face
 let enemyTexture1D = [
